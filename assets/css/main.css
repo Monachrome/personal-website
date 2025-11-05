@@ -835,6 +835,10 @@ button,
         position: absolute; } }
 
 /* Footer */
+#copyleft {
+    display: inline-block;
+    transform: scaleX(-1);
+}
 #footer {
   -moz-transition: opacity 0.5s ease-in-out;
   -webkit-transition: opacity 0.5s ease-in-out;
@@ -885,3 +889,4 @@ button,
       left: auto;
       margin: 1em 0 0 0;
       position: relative; } }
+
